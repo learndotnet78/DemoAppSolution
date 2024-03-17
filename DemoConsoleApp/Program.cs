@@ -15,7 +15,6 @@ namespace DemoConsoleApp
     {
         static void Main(string[] args)
         {
-            //Added git comments
             WriteXMLViaLINQ();
             Console.ReadLine();
 
