@@ -15,6 +15,7 @@ namespace DemoConsoleApp
     {
         static void Main(string[] args)
         {
+            //Code to merge to master
             WriteXMLViaLINQ();
             Console.ReadLine();
 
