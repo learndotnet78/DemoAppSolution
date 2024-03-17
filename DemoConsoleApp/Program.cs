@@ -18,7 +18,6 @@ namespace DemoConsoleApp
             //Applied hotfix
             WriteXMLViaLINQ();
             Console.ReadLine();
-
         }
 
         public static void ReadXmlFile()
