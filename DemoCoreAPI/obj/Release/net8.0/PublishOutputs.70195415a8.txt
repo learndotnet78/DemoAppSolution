@@ -1,0 +1,13 @@
+E:\repos\DemoAppSolution\DemoCoreAPI\obj\Release\net8.0\PubTmp\Out\DemoCoreAPI.exe
+E:\repos\DemoAppSolution\DemoCoreAPI\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+E:\repos\DemoAppSolution\DemoCoreAPI\obj\Release\net8.0\PubTmp\Out\appsettings.json
+E:\repos\DemoAppSolution\DemoCoreAPI\obj\Release\net8.0\PubTmp\Out\DemoCoreAPI.dll
+E:\repos\DemoAppSolution\DemoCoreAPI\obj\Release\net8.0\PubTmp\Out\DemoCoreAPI.deps.json
+E:\repos\DemoAppSolution\DemoCoreAPI\obj\Release\net8.0\PubTmp\Out\DemoCoreAPI.runtimeconfig.json
+E:\repos\DemoAppSolution\DemoCoreAPI\obj\Release\net8.0\PubTmp\Out\DemoCoreAPI.pdb
+E:\repos\DemoAppSolution\DemoCoreAPI\obj\Release\net8.0\PubTmp\Out\AutoMapper.dll
+E:\repos\DemoAppSolution\DemoCoreAPI\obj\Release\net8.0\PubTmp\Out\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\repos\DemoAppSolution\DemoCoreAPI\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+E:\repos\DemoAppSolution\DemoCoreAPI\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+E:\repos\DemoAppSolution\DemoCoreAPI\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\repos\DemoAppSolution\DemoCoreAPI\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,0 +1,7 @@
+E:\repos\DemoAppSolution\DemoConsoleApp\obj\Debug\DemoConsoleApp.csproj.AssemblyReference.cache
+E:\repos\DemoAppSolution\DemoConsoleApp\obj\Debug\DemoConsoleApp.csproj.CoreCompileInputs.cache
+E:\repos\DemoAppSolution\DemoConsoleApp\bin\Debug\DemoConsoleApp.exe.config
+E:\repos\DemoAppSolution\DemoConsoleApp\bin\Debug\DemoConsoleApp.exe
+E:\repos\DemoAppSolution\DemoConsoleApp\bin\Debug\DemoConsoleApp.pdb
+E:\repos\DemoAppSolution\DemoConsoleApp\obj\Debug\DemoConsoleApp.exe
+E:\repos\DemoAppSolution\DemoConsoleApp\obj\Debug\DemoConsoleApp.pdb
