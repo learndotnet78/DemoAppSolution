@@ -15,9 +15,9 @@ namespace DemoConsoleApp
     {
         static void Main(string[] args)
         {
+            //Code to test final merge
             WriteXMLViaLINQ();
             Console.ReadLine();
-
         }
 
         public static void ReadXmlFile()
