@@ -15,7 +15,7 @@ namespace DemoConsoleApp
     {
         static void Main(string[] args)
         {
-            //Code to test final merge
+            //Applied hotfix
             WriteXMLViaLINQ();
             Console.ReadLine();
 
