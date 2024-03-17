@@ -15,7 +15,7 @@ namespace DemoConsoleApp
     {
         static void Main(string[] args)
         {
-            //Applied hotfix
+            //Removed hotfix with version 1.0
             WriteXMLViaLINQ();
             Console.ReadLine();
         }
