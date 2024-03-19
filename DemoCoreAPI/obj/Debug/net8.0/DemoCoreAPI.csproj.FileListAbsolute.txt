@@ -32,3 +32,4 @@ E:\repos\DemoAppSolution\DemoCoreAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swa
 E:\repos\DemoAppSolution\DemoCoreAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\repos\DemoAppSolution\DemoCoreAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 E:\repos\DemoAppSolution\DemoCoreAPI\obj\Debug\net8.0\DemoCoreAPI.MvcApplicationPartsAssemblyInfo.cs
+E:\repos\DemoAppSolution\DemoCoreAPI\obj\Debug\net8.0\DemoCoreAPI.sourcelink.json
