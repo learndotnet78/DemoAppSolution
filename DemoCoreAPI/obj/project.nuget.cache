@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fYHuvK5P3IUyUlRhKQoTh1SsAW5Lt9RtFkJhyDEIBKSNwooOePxTk3stYU7K/DAfCvuNWuqTCMzJHAEpZss+DA==",
+  "dgSpecHash": "hjz7ww37VAJYKvsV3unh6CsjkGe6uSVNQZjamA83q5T8yOv8Jtaqs+6TKtFnHCbSFawFAA0iv2SB/HQ/UxfIyA==",
   "success": true,
   "projectFilePath": "E:\\repos\\DemoAppSolution\\DemoCoreAPI\\DemoCoreAPI.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\SSHome\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\SSHome\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\SSHome\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\SSHome\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\SSHome\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\SSHome\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\SSHome\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",

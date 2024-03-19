@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\ArrayClass.cs" />
     <Compile Include="Model\Book.cs" />
+    <Compile Include="Model\CodingExampleClass.cs" />
+    <Compile Include="Model\FileIOClass.cs" />
     <Compile Include="Model\Location.cs" />
+    <Compile Include="Model\SortingAlgorithmClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

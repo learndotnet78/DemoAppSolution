@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddSwaggerGen();
-builder.Services.AddHostedService<BgWorkerService>();
+//builder.Services.AddHostedService<BgWorkerService>();
 
 var app = builder.Build();
 

@@ -15,138 +15,19 @@ namespace DemoConsoleApp
     {
         static void Main(string[] args)
         {
-            //Removed hotfix with version 1.0
-            WriteXMLViaLINQ();
+            //CodingExampleClass objClass = new CodingExampleClass();
+            //objClass.SampleCheck();
+
+            int i = 10;
+            double d = 34.340;
+            fun(i);
+            fun(d);
+
             Console.ReadLine();
         }
-
-        public static void ReadXmlFile()
+        static void fun(double d)
         {
-            string xmlFileLocation = @"E:\\FileLocation\\NewBook.xml";
-            XmlTextReader xmlReader = new XmlTextReader(xmlFileLocation);
-
-            while (xmlReader.Read())
-            {
-                switch (xmlReader.NodeType)
-                {
-                    case XmlNodeType.Element:   
-                        Console.Write("<" +xmlReader.Name);
-                        while (xmlReader.MoveToNextAttribute())
-                        {
-                            Console.Write(" " + xmlReader.Name + "='" + xmlReader.Value + "'");
-                        }
-                        Console.Write(">");
-                        Console.WriteLine();
-                        break;
-                    case XmlNodeType.Text:
-                        Console.WriteLine(xmlReader.Value);
-                        break;
-                    case XmlNodeType.EndElement:
-                        Console.Write("</" + xmlReader.Name);
-                        Console.WriteLine(">");
-                        break;
-                }
-            }
-
-        }
-
-        public static void ReadXmlFileViaLINQ()
-        {
-            XDocument xmlDoc = XDocument.Load(@"E:\\FileLocation\\NewBook.xml");
-
-            var items = from x in xmlDoc.Descendants("catalog").Descendants("book")
-                        select new
-                        {
-                            Author = x.Element("author").Value,
-                            Title = x.Element("title").Value,
-                            Price = x.Element("price").Value,
-                            Location = from y in x.Descendants("location")
-                                       select new
-                                       {
-                                           Shelf = y.Element("shelf").Value
-                                       }
-                        };
-            foreach (var item in items)
-            {
-                Console.WriteLine($"Author - {item.Author}");
-                foreach (var location in item.Location)
-                {
-                    Console.Write($"Shelf - {location.Shelf}");
-                }
-                Console.WriteLine();
-            }
-        }
-
-        public static void WriteXMlFile()
-        {
-            XmlWriter xmlWriter = XmlWriter.Create(@"E:\\FileLocation\\OutputXmlFile.xml");
-
-            List<Book> books = BuildBookData();
-            xmlWriter.WriteStartDocument();
-            xmlWriter.WriteStartElement("Books");
-            foreach (var book in books)
-            {
-                xmlWriter.WriteStartElement("Book");
-                xmlWriter.WriteAttributeString("BookID", book.BookID.ToString());
-                xmlWriter.WriteElementString("Title", book.Title);
-                xmlWriter.WriteElementString("Author", book.Author);
-                xmlWriter.WriteElementString("Price", book.Price.ToString());
-                foreach (var booklocations in book.Locations)
-                {
-                    xmlWriter.WriteStartElement("Location");
-                    xmlWriter.WriteElementString("Shelf", booklocations.Shelf);
-                    xmlWriter.WriteEndElement();
-                }
-                xmlWriter.WriteEndElement();
-            }
-            xmlWriter.WriteEndElement();
-            xmlWriter.WriteEndDocument();
-            xmlWriter.Close();
-        }
-
-        private static List<Book> BuildBookData()
-        {
-            return new List<Book>()
-            {
-                new Book() { BookID = 1, Author ="Author1", Price = 10, Title="Title 1",
-                Locations = new List<Location>() {
-                        new Location() { Shelf = "S1"},
-                        new Location() { Shelf = "S2"}
-                  }
-                },
-                new Book() { BookID = 2, Author ="Author2", Price = 20, Title="Title 2",
-                                Locations = new List<Location>() {
-                        new Location() { Shelf = "S3"},
-                        new Location() { Shelf = "S4"}
-                  }
-                },
-                new Book() { BookID = 3, Author ="Author3", Price = 30, Title="Title 3",
-                                Locations = new List<Location>() {
-                        new Location() { Shelf = "S5"},
-                        new Location() { Shelf = "S6"}
-                  }
-                },
-            };
-        }
-
-        public static string WriteXMLViaLINQ()
-        {
-            List<Book> books = BuildBookData();
-
-            var outputXML = new XDocument(
-                    new XElement("Catalog",
-                    from book in books
-                    select new XElement("Book",
-                    new XElement("Author", book.Author),
-                    new XElement("Title", book.Title),
-                    new XElement("Price", book.Price),
-                    from location in book.Locations
-                    select new XElement("Location",
-                    new XElement("Shelf", location.Shelf))
-                    )
-                ));
-
-            return outputXML.ToString();
+            Console.WriteLine(d + " ");
         }
         public static void FindGreaterNumber()
         {
