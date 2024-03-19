@@ -16,8 +16,11 @@ namespace DemoCoreAPI.Controllers
         }
 
         [HttpGet]
-        public UserModel GetUsers()
+        [Route("user")]
+        public UserModel GetUser()
         {
+
+
             User user = new User();
             UserModel userModel = new UserModel();
 
@@ -42,6 +45,19 @@ namespace DemoCoreAPI.Controllers
             userModel = this._mapper.Map<UserModel>(user);
 
             return userModel;
+        }
+
+        [HttpGet]
+        [Route("users")]
+        public List<User> GetUsers()
+        {
+            List<User> userList = new List<User>()
+            {
+                new User { UserID = 1, UserName ="Sam" ,City ="NYC"},
+                new User { UserID = 2, UserName ="Alex" ,City ="Trenton"},
+                new User { UserID = 3, UserName ="Pam" ,City ="Dallas"}
+            };
+            return userList;
         }
     }
 }

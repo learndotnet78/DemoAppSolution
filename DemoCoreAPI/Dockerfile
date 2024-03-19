@@ -9,8 +9,6 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["DemoCoreAPI.csproj", ""]
-#COPY ["./DemoCoreAPI/DemoCoreAPI.csproj", "DemoCoreAPI/"]
-#RUN dotnet restore "./DemoCoreAPI/DemoCoreAPI.csproj"
 RUN dotnet restore "./DemoCoreAPI.csproj"
 COPY . .
 WORKDIR "/src/."
